@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Pokémon Search App</h1>
+    <div class="container">
+      <p>Search for a Pokémon Name or ID:</p>
+      <div class="search">
+        <input type="text" id="search-input" />
+        <button id="search-button">Search</button>
+      </div>
+      <div class="card">
+        <div class="pokemon-info">
+          <div class="pokemon-intro">
+            <div id="pokemon-name"></div>
+            <div id="pokemon-id"></div>
+          </div>
+          <div class="pokemon-bmi">
+            <div id="weight"></div>
+            <div id="height"></div>
+          </div>
+          <div id="pokemon-image"></div>
+          <div id="types"></div>
+        </div>
+
+        <div class="stats">
+          <div class="stat-container" id="stat-intro">
+            <div class="base" id="base-title">Base</div>
+            <div class="stat" id="stat-title">Stats</div>
+          </div>
+          <div class="stat-container" id="hp-intro">
+            <div class="base" id="hp-title">HP:</div>
+            <div class="stat" id="hp"></div>
+          </div>
+          <div class="stat-container" id="attack-intro">
+            <div class="base" id="attack-title">Attack:</div>
+            <div class="stat" id="attack"></div>
+          </div>
+          <div class="stat-container" id="defense-intro">
+            <div class="base" id="defense-title">Defense:</div>
+            <div class="stat" id="defense"></div>
+          </div>
+          <div class="stat-container" id="special-attack-intro">
+            <div class="base" id="special-attack-title">Special Attack:</div>
+            <div class="stat" id="special-attack"></div>
+          </div>
+          <div class="stat-container" id="special-defense-intro">
+            <div class="base" id="special-defense-title">Special Defense:</div>
+            <div class="stat" id="special-defense"></div>
+          </div>
+          <div class="stat-container" id="speed-intro">
+            <div class="base" id="speed-title">Speed:</div>
+            <div class="stat" id="speed"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
